@@ -1,6 +1,6 @@
-#!/bin/bash -xe
+#!/bin/bash
 
-for i in `seq 0 7`; do
+for i in `seq 0 9`; do
 	ssh pi@pi$i "$1" &
 done
 
