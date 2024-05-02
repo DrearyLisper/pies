@@ -1,0 +1,6 @@
+- hosts: pies
+  become: true
+  tasks:
+  - apt:
+      upgrade: 'yes'
+      update_cache: 'yes'
