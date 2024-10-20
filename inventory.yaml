@@ -20,4 +20,8 @@ pies:
       ansible_host: 192.168.89.28
     pi10:
       ansible_host: 192.168.89.29
+    pi11:
+      ansible_host: 192.168.89.30
+    pi12:
+      ansible_host: 192.168.89.31
 
